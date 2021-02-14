@@ -1,0 +1,6 @@
+= Skija playground
+
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/Heptagram.kt[`Heptagram.kt`]::
+Draws a https://en.wikipedia.org/wiki/Heptagram[heptagram] into a `.JPEG` file.
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/HeptagramSKP.kt[`HeptagramSKP.kt`]::
+Draws a https://en.wikipedia.org/wiki/Heptagram[heptagram] into a `.SKP` file that could be replayed and debugged using the https://debugger.skia.org[Skia Debugger].
