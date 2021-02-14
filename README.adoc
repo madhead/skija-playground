@@ -9,5 +9,5 @@ Renders https://kotlinlang.org/docs/faq.html#where-can-i-get-an-hd-kotlin-logo[t
 link:app/src/main/kotlin/me/madhead/playgrounds/skija/svg/RenderKotlinSVGLogoSKP.kt[`RenderKotlinSVGLogoSKP.kt`]::
 Renders https://kotlinlang.org/docs/faq.html#where-can-i-get-an-hd-kotlin-logo[the Kotlin logo] from an `.SVG` to an `.SKP`.
 Check it out in the https://debugger.skia.org[Skia Debugger]!
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/text/SimpleText.kt[`SimpleText.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/text/TextLine.kt[`SimpleText.kt`]::
 Draws a single text line in the middle of the drawing.
