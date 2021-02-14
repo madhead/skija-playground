@@ -1,15 +1,15 @@
 package me.madhead.playgrounds.skija
 
 import org.jetbrains.skija.EncodedImageFormat
+import org.jetbrains.skija.Picture
 import org.jetbrains.skija.PictureRecorder
 import org.jetbrains.skija.Surface
 import java.nio.file.Files
 import java.nio.file.Path
 
-fun PictureRecorder.dump() {
+fun Picture.dump() {
     this
-            .finishRecordingAsPicture()
-            ?.serializeToData()
+            .serializeToData()
             ?.bytes
             ?.let { bytes ->
                 val file = Files.createTempFile("", ".skp")
@@ -17,6 +17,12 @@ fun PictureRecorder.dump() {
                 file.toFile().writeBytes(bytes)
                 println(file.toString())
             }
+}
+
+fun PictureRecorder.dump() {
+    this
+            .finishRecordingAsPicture()
+            .dump()
 }
 
 fun Surface.dumpAsJPG(): Path? = this
