@@ -1,13 +1,13 @@
 = Skija playground
 
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/Heptagram.kt[`Heptagram.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/basics/Heptagram.kt[`Heptagram.kt`]::
 Draws a https://en.wikipedia.org/wiki/Heptagram[heptagram] into a `.JPEG` file.
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/HeptagramSKP.kt[`HeptagramSKP.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/basics/HeptagramSKP.kt[`HeptagramSKP.kt`]::
 Draws a https://en.wikipedia.org/wiki/Heptagram[heptagram] into an `.SKP` file that could be replayed and debugged using the https://debugger.skia.org[Skia Debugger].
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/RenderKotlinSVGLogo.kt[`RenderKotlinSVGLogo.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/svg/RenderKotlinSVGLogo.kt[`RenderKotlinSVGLogo.kt`]::
 Renders https://kotlinlang.org/docs/faq.html#where-can-i-get-an-hd-kotlin-logo[the Kotlin logo] from an `.SVG` to a `.PNG`.
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/RenderKotlinSVGLogoSKP.kt[`RenderKotlinSVGLogoSKP.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/svg/RenderKotlinSVGLogoSKP.kt[`RenderKotlinSVGLogoSKP.kt`]::
 Renders https://kotlinlang.org/docs/faq.html#where-can-i-get-an-hd-kotlin-logo[the Kotlin logo] from an `.SVG` to an `.SKP`.
 Check it out in the https://debugger.skia.org[Skia Debugger]!
-link:app/src/main/kotlin/me/madhead/playgrounds/skija/heptagram/SimpleText.kt[`SimpleText.kt`]::
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/text/SimpleText.kt[`SimpleText.kt`]::
 Draws a single text line in the middle of the drawing.

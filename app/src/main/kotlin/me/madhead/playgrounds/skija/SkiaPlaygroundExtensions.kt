@@ -1,4 +1,4 @@
-package me.madhead.playgrounds.skija.heptagram
+package me.madhead.playgrounds.skija
 
 import org.jetbrains.skija.EncodedImageFormat
 import org.jetbrains.skija.PictureRecorder

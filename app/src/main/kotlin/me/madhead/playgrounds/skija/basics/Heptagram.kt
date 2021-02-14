@@ -1,5 +1,7 @@
-package me.madhead.playgrounds.skija.heptagram
+package me.madhead.playgrounds.skija.basics
 
+import me.madhead.playgrounds.skija.dumpAsJPG
+import me.madhead.playgrounds.skija.open
 import org.jetbrains.skija.Canvas
 import org.jetbrains.skija.Paint
 import org.jetbrains.skija.Surface

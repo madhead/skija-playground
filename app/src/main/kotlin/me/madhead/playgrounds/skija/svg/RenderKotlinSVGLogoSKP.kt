@@ -1,5 +1,6 @@
-package me.madhead.playgrounds.skija.heptagram
+package me.madhead.playgrounds.skija.svg
 
+import me.madhead.playgrounds.skija.dump
 import org.jetbrains.skija.PictureRecorder
 import org.jetbrains.skija.Rect
 
