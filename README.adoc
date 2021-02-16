@@ -1,5 +1,7 @@
 = Skija playground
 
+link:app/src/main/kotlin/me/madhead/playgrounds/skija/basics/Star.kt[`Star.kt`]::
+Draws a star into a `.JPEG` file and opens the result.
 link:app/src/main/kotlin/me/madhead/playgrounds/skija/basics/Heptagram.kt[`Heptagram.kt`]::
 Draws a https://en.wikipedia.org/wiki/Heptagram[heptagram] into a `.JPEG` file.
 link:app/src/main/kotlin/me/madhead/playgrounds/skija/basics/HeptagramSKP.kt[`HeptagramSKP.kt`]::

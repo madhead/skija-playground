@@ -29,7 +29,7 @@ fun main() {
 
     picture.playback(surface.canvas)
     picture.dump()
-    surface.dumpAsJPG()?.open()
+    surface.dumpAsJPG().open()
 }
 
 /**

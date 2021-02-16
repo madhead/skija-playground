@@ -19,7 +19,7 @@ fun main() {
     val surface = Surface.makeRasterN32Premul(Heptagram.size, Heptagram.size)
 
     heptagram(surface.canvas)
-    surface.dumpAsJPG()?.open()
+    surface.dumpAsJPG().open()
 }
 
 /**

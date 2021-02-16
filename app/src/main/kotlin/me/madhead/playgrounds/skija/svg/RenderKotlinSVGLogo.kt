@@ -19,7 +19,7 @@ fun main() {
     val surface = Surface.makeRasterN32Premul(KotlinSVGLogo.width, KotlinSVGLogo.height)
 
     kotlinSVGLogo(surface.canvas)
-    surface.dumpAsPNG()?.open()
+    surface.dumpAsPNG().open()
 }
 
 /**

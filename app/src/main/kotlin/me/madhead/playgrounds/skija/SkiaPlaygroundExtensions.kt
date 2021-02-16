@@ -25,7 +25,7 @@ fun PictureRecorder.dump() {
             .dump()
 }
 
-fun Surface.dumpAsJPG(): Path? = this
+fun Surface.dumpAsJPG(): Path = this
         .makeImageSnapshot()
         ?.encodeToData(EncodedImageFormat.JPEG)
         ?.bytes
@@ -35,9 +35,9 @@ fun Surface.dumpAsJPG(): Path? = this
             file.toFile().writeBytes(bytes)
 
             file
-        }
+        }!!
 
-fun Surface.dumpAsPNG(): Path? = this
+fun Surface.dumpAsPNG(): Path = this
         .makeImageSnapshot()
         ?.encodeToData(EncodedImageFormat.PNG)
         ?.bytes
@@ -47,6 +47,6 @@ fun Surface.dumpAsPNG(): Path? = this
             file.toFile().writeBytes(bytes)
 
             file
-        }
+        }!!
 
 fun Path.open(): Process = ProcessBuilder("xdg-open", this.toAbsolutePath().toString()).start()
